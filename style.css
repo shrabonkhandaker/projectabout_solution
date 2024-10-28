@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    box-sizing: border-box;
+}
+:root{
+    --clr-red:rgb(252, 3, 19);
+
+}
+.heroArea{
+    background-image: url(./Image/_hero-banner-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw ;
+}
+.heroArea::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.heroArea .infoFirstPage{
+    position: relative;
+    color: white;
+}
+.infoFirstPage{
+
+    align-items: start;
+    width: 100%;
+    height:100px;
+    margin-top: 300px ;
+}
+
+
+header{
+  box-shadow: 0 0 10px gray;
+}
+
+.contactus{
+    background-color: var(--clr-red);
+    padding: 10px 18px;
+    border-radius: 12px ;
+    outline: none ;
+    border: none;
+    font-family:"Poppins" ;
+    font-size: 17px ;
+    color:white ;
+}
+.contactus:hover{
+    background-color: white ;
+    color: var(--clr-red);
+}
+
+.navbar li a{
+    color:white;
+    letter-spacing: 1px ;
+    font-size: 18px ;
+}
+.navbar li .active{
+    color: var(--clr-red);
+}
+
+.infoText{
+    color: white;
+    font-family: "Poppins";
+    letter-spacing: 2px ;
+    font-weight: 400;
+}
+
+.get-started{
+    background-color: var(--clr-red);
+    padding: 10px 20px ;
+    outline: none ;
+    border: none;
+    border-radius: 12px ;
+} 
+.get-started a{
+    text-decoration: none ;
+    color: white;
+}
+.get-started:hover{
+    background-color: white;
+    color: var(--clr-red);
+}
+.get-started a:hover{
+    color: var(--clr-red);
+}
+
+.about_area{
+    margin-top: 100px ;
+}
+
+.about-item .img1{
+    filter: grayscale();
+ 
+}
+.about-item .img2{
+    position: absolute;
+    left: 18rem;
+    padding: 26px 0;
+    
+}
+
+.about_info {
+    margin-top: 10px  ;
+}
+.red-headline{
+    padding: 5px 0;
+    color: var(--clr-red);
+    letter-spacing: 1px ;
+}
+.about_headline{
+    font-size: 21px ;
+    font-weight: 400;
+    letter-spacing: 1.5px ;
+    margin: 20px 0;
+}
+.about_airticle{
+    font-size: 15px;
+}
+
+.arrow-icon{
+    color: tomato;
+    text-decoration: none;
+}
+.service-part{
+    margin-top: 50px;
+}
+.spartan_tittle{
+    font-size: 25px ;
+    padding: 10px ;
+    font-weight: bold;
+    font-family: "Poppins";
+}
+
+
+.cardArea2{
+ margin: 50px;
+}
+.cardOne{
+    margin: 30px  60px;
+    background-color: white;
+    box-shadow: 5px 5px 10px gray ;
+    border-radius: 15px;
+    text-align: center;
+    padding: 50px 100px ;
+   
+}
+.cardOne img{
+    border-radius: 50%;
+    border: 1px solid black ;
+    padding: 20px ;
+    margin: 10px 0;
+}
+.cardOne h3{
+    font-size: 20px;
+    font-family:"Poppins" ;
+    font-weight: bold;
+    font-weight: 600;
+}
+.cardOne p{
+    font-size: 15px;
+}
+
+.benefits_menu{
+    margin: 100px ;
+}
+
+.benefits-topic{
+    margin-left: 30px ;
+}
+
+.benefits_checkicon li{
+    list-style: none;
+
+}
+.benefits_checkicon i{
+    background-color: rgb(252, 3, 19);
+    color: white;
+    border-radius: 50%;
+    padding: 8px ;
+    margin: 20px 15px  ;
+    font-size: 12px ;
+    
+}
+.processimgContainer{
+    background-image: url(./Image/process-image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+.processimgContainer::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+}
+.processimgContainer .process-article{
+    position: relative;
+    color: white ;
+    text-align: center;
+}
+ .process-article{
+   padding: 70px 0px;
+    font-size: 15px ;
+} 
+
+.processCard i{
+    padding: 20px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+}
+.processCard h3{
+    font-size: 20px;
+    font-family: "Poppins";
+    padding: 10px 0; 
+    font-weight: 500;
+}
+.processCard h3 {
+    font-size: 15px;
+    font-family: "Poppins";
+    padding: 10px ;
+} 
+.processCardall{
+    padding: 0px 60px;
+}
+.otherbenefits{
+    margin: 20px 0px ;
+}
+.otherheadline{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: "Poppins";
+    margin: 30px 0px;
+}
+.bold-list{
+    font-size: 20px ;
+    font-weight: bold ;
+    font-weight: 500;
+    padding: 25px 0;
+}
+.list-airticle{
+    font-weight: 15px ;
+    margin :25px 0;
+    font-weight: 500;
+}
+
+.otherlastArea1{
+    position: relative;
+    background-image: url(./Image/operation.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+   
+  
+ 
+}
+.otherlastArea1::before{
+    content: "";
+    position: absolute;
+    top:0 ;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.otherlastArea1 h1{
+    position: relative;
+    color: white;
+    font-size: 25px ;
+    margin-top : 90px ;
+  
+}
+.otherlastArea1 p{
+    position: relative;
+    color: white;
+    font-size: 15px ;
+
+    
+}
+.otherlastArea2{
+    background-image: url(./Image/empower\ commitment.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    position: relative;
+}
+.otherlastArea2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.otherlastArea2 h1{
+    position: relative;
+    color: white;
+    font-size: 25px ;
+    margin-top : 90px ;
+   
+}
+.otherlastArea2 p{
+    position: relative;
+    color: white;
+    font-size: 15px ;
+    
+    
+}
+.otherlastArea2 button{
+    position: relative;
+   width: 150px ;
+  background-color: rgb(252, 3, 19);
+  padding: 10px 15px ;
+  border: none;
+  border-radius: 15px ;
+  
+}
+.otherlastArea2 button a {
+    color: white ;
+    text-decoration: none;
+}
+.contactuslast{
+    background-color: var(--clr-red);
+    color: white;
+    padding: 10px ;
+    border: none;
+    border-radius: 12px ;
+}
+.contactuslast:hover{
+    background-color: white;
+    color: brown;
+}
+.footerArea{
+    background-image: url(./Image/cta-banner.webp);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px ;
+}
+.footerArea::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.footerArea h1{
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 10px 100px ;
+    text-align: center;
+    font-size: 25px ;
+}
+.footerArea button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 18px ;
+    border-radius: 15px ;
+    position: relative;
+}
+.footerArea button a{
+    color: white;
+    text-decoration: none ;
+}
+.footerArea button:hover{
+    background-color: transparent;
+    border: none;
+    transform: scale(1.1);
+}
+footer{
+    background-color: rgba(0,0,0,0.9);
+    height: 150vh ;
+}
+.fotterlogo {
+    padding: 50px 30px;
+}
+.footerlink ul li{
+    list-style: none;
+}
+.nav-active{
+    color: var(--clr-red);
+    margin: 25px px ;
+}
+.footerlink ul li a{
+    text-decoration: none;
+    color: #efefee;
+}
+
+.footerlink ul li:first-child{
+    margin: 20px 0px ;
+}
+.footerlink ul li{
+    padding: 10px 0px ;
+}
+.footerlink ul li i{
+    color:#efefee;
+   
+}
+.footerlink ul li i:hover{
+    color: var(--clr-red);
+}
+.fa-envelope{
+    color: #efefee;
+
+}
+.fa-envelope:hover{
+    color: var(--clr-red);
+}
+.fa-envelope a{
+    text-decoration: none;
+    color: #efefee;
+    font-size: 15px ;
+    font-weight: 300;
+}
+.fa-envelope a:hover{
+    color: var(--clr-red);
+}
+.lastfotter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top : 30px;
+}
+.lastfotter li{
+    list-style: none;
+}
+.lastfotter2{
+    display: flex;
+}
+.lastfotter2 li {
+    color: #efefee;
+    margin:0px 5px ;
+}
+.blue-headline{
+    color: blue;
+}
